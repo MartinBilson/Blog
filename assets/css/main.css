@@ -131,6 +131,41 @@ body.light-theme{
     transform: opacity .25s ease-in;
 }
 
+.list{
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.menu > .list{
+    flex-direction: column;
+}
+.list-link.current{
+    color: var(--light-color);
+}
+
+.close-menu-icon{
+    display: none;
+}
+ .btn{
+     cursor: pointer;
+ }
+ .list-link:hover,
+ .btn:hover,
+ .btn:hover span{
+     color: var(--light-color);
+ }
+
+ .moon-icon{
+     display: none;
+ }
+ .light-theme .sun-icon{
+     display: none;
+ }
+ .light-theme .moon-icon{
+     display: block;
+ }
+
 /* Header JavaScript Styles */
 
 /* Search */
